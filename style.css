@@ -424,8 +424,28 @@ span{
     {
         width: 310px;
     }
-    html{
-        padding-left: 37px;
+    .first{
+        padding-left: 10px;
+    }
+    #intro {
+        font-size: 200%;
+    }
+    #inner{
+        width: 310px;
+    }
+}
+@media only screen and (max-width:330px){
+    #about
+    {
+        width: 340px;
+        font-size: 160%;
+    }
+    #tags
+    {
+        width: 310px;
+    }
+    .first{
+        padding-left: 35px;
     }
     #intro {
         font-size: 200%;
